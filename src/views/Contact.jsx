@@ -18,11 +18,11 @@ const Contact = () => {
           <h1>
             <b>Pages</b>
           </h1>
-          <h2>Home</h2>
-          <h2>About</h2>
-          <h2>Services</h2>
-          <h2>Contact Us</h2>
-          <h2>Jobs</h2>
+          <a href="/home"><h2>Home</h2></a>
+          <a href="/about"><h2>About</h2></a>
+          <a href="/services"><h2>Services</h2></a>
+          <a href="/benefits"><h2>Benefits</h2></a>
+          <a href="/contact"><h2>Contact Us</h2></a>
         </div>
         <div className={styles.social}>
           <h1>

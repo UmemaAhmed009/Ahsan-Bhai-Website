@@ -148,7 +148,8 @@ export default function Navbar() {
           <IconButton
             className="Hamburger"
             size={"md"}
-            icon={isOpen ? <CloseIcon/> : <HamburgerIcon />}
+            // icon={isOpen ? <CloseIcon/> : <HamburgerIcon />}
+            icon={<HamburgerIcon />}
             aria-label={"Open Menu"}
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
@@ -164,7 +165,7 @@ export default function Navbar() {
             >
               <Box // Wrap the CloseIcon inside a Box and apply styling
                 as="span"
-                color="white"
+                color="black"
                 fontSize="2xl"
                 cursor="pointer"
                 onClick={onClose}

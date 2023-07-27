@@ -36,7 +36,6 @@ const ChatForm = () => {
         </div>
 
         <div className={styles["form-container"]}>
-            <h1 className={styles.heading1}>Contact Form</h1>
             <form onSubmit={handleSubmit}>
                 <div>
                 <label htmlFor="message">Message:</label>
@@ -82,7 +81,7 @@ const ChatForm = () => {
                 />
                 </div>
                 <div>
-                <label htmlFor="company">Company:</label>
+                <label htmlFor="company">Company/Institution/Individual:</label>
                 <input
                     type="text"
                     id="company"

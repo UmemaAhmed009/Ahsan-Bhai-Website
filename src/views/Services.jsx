@@ -1,9 +1,9 @@
 import * as React from "react";
 import styles from "../styles/Services.module.css";
 import awsIcon from "../assets/aws-icon.png";
-import azureIcon from "../assets/azure icon.webp";
+import azureIcon from "../assets/Azure-Logo-PNG-Black.png";
 import gcp from "../assets/google-cloud-platform.png";
-import docker from "../assets/docker-logo.webp";
+import docker from "../assets/docker-logo.png";
 import dockerCompose from "../assets/docker compose.jpg"
 import kubernetes from "../assets/kubernetes.png"
 import gitlab from "../assets/Gitlab.png";
